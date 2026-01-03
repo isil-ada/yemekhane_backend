@@ -1,0 +1,24 @@
+[dotenv@17.2.3] injecting env (6) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+Server running on port 3000
+Database connected successfully!
+[0mPOST /api/register [32m201[0m 117.302 ms - 68[0m
+[0mPOST /api/login [32m200[0m 106.443 ms - 362[0m
+[0mGET /api/lunch?date=2025-12-01 [32m200[0m 6.608 ms - 477[0m
+[0mGET /api/lunch?date=2025-12-01 [32m200[0m 6.857 ms - 477[0m
+[0mGET /api/dinner?date=2025-12-01 [32m200[0m 4.159 ms - 498[0m
+[0mGET /api/lunch/month?year=2025&month=12 [32m200[0m 7.359 ms - 11018[0m
+[0mGET /api/dinner/month?year=2025&month=12 [32m200[0m 7.609 ms - 14783[0m
+[0mPOST /api/favorites [32m201[0m 4.587 ms - 33[0m
+[0mGET /api/favorites [32m200[0m 2.431 ms - 98[0m
+[0mGET /api/lunch?date=2025-12-01 [32m200[0m 4.217 ms - 476[0m
+[0mDELETE /api/favorites/1 [32m200[0m 4.114 ms - 41[0m
+[0mPOST /api/comments [32m201[0m 3.981 ms - 28[0m
+[0mGET /api/comments/1 [32m200[0m 3.051 ms - 1313[0m
+[0mPOST /api/rate [32m200[0m 10.143 ms - 69[0m
+[0mGET /api/comments/1 [32m200[0m 1.743 ms - 1310[0m
+[0mGET /api/lunch?date=2025-12-01 [32m200[0m 6.994 ms - 474[0m
+[0mPOST /api/complaints [32m201[0m 5.295 ms - 51[0m
+[0mGET /api/complaints [32m200[0m 3.649 ms - 181[0m
+[0mPOST /api/change-password [32m200[0m 214.397 ms - 51[0m
+[0mPOST /api/login [32m200[0m 103.094 ms - 362[0m
