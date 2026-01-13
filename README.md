@@ -1,13 +1,13 @@
 ---
 
-# 🍽️ Yemekhane Backend
+# Yemekhane Backend
 
 Bu proje, Yemekhane App mobil uygulamasının arka uç (backend) API'sini barındırır.
 API, istemciden gelen istekleri işler, veritabanı ile etkileşir ve uygulamanın çalışması için gerekli verileri sağlar.
 
 ---
 
-## 🧱 Teknolojiler
+## Teknolojiler
 
 Bu backend projesi aşağıdaki teknolojilerle geliştirilmiştir:
 
@@ -20,7 +20,7 @@ Bu backend projesi aşağıdaki teknolojilerle geliştirilmiştir:
 
 ---
 
-## 📁 Proje Yapısı
+## Proje Yapısı
 
 ```
 ├── config/           # Ortam ayarları / config
@@ -36,7 +36,7 @@ Bu backend projesi aşağıdaki teknolojilerle geliştirilmiştir:
 
 ---
 
-## 🚀 Çalıştırma
+## Çalıştırma
 
 Aşağıdaki adımlarla backend API’yi çalıştırabilirsin:
 
@@ -72,7 +72,7 @@ Varsayılan olarak sunucu **[http://localhost:3000](http://localhost:3000)** üz
 
 ---
 
-## 📌 Kullanım
+## Kullanım
 
 API endpoint’leri ile:
 
@@ -84,7 +84,7 @@ API endpoint’leri ile:
 
 ---
 
-## 🛠 Veritabanı (Opsiyonel)
+## Veritabanı (Opsiyonel)
 
 * `seed_data.js`: Başlangıç verilerini ekler
 * `inspect_db.js`: Veritabanını inceler
@@ -93,7 +93,7 @@ Bu scriptleri çalıştırarak veritabanı içeriğini test edebilirsin.
 
 ---
 
-## 📄 Lisans
+## Lisans
 
 Bu proje eğitim ve proje amacıyla hazırlanmıştır.
 *Ticari amaçla kullanılması veya çoğaltılması **yasaktır***.
