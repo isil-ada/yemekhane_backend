@@ -1,0 +1,49 @@
+# --- Bağımlılıklar (Dependencies) ---
+node_modules/
+/pnpm-lock.yaml
+/yarn-error.log
+
+# --- Çevresel Değişkenler (Environment Variables) ---
+# BURASI ÇOK ÖNEMLİ: API anahtarları ve şifreleri içeren dosyalar
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.production
+
+# --- Loglar (Logs) ---
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+server.log
+
+# --- Runtime Data (Çalışma Zamanı Verileri) ---
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# --- Build Çıktıları (Eğer TypeScript veya Babel kullanıyorsan) ---
+dist/
+build/
+out/
+
+# --- Test Kapsama Raporları (Coverage) ---
+coverage/
+.nyc_output/
+
+# --- IDE ve Editör Dosyaları ---
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+public/uploads/
+uploads/
